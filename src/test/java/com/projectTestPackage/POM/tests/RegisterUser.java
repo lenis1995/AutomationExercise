@@ -23,7 +23,7 @@ public class RegisterUser {
 
     @BeforeTest
     public void setupSystem(){
-        System.setProperty("webdriver.chrome.driver" , "C:\\Users\\lenix\\Desktop\\CURSOS PROGRAMACIÓN\\chromedriver_win32\\chromedriver2.exe");
+        System.setProperty("webdriver.chrome.driver" , System.getProperty("user.dir")+ "\\drivers\\chromedriver2.exe");
         String URL= "https://www.advantageonlineshopping.com/#/";
         driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
