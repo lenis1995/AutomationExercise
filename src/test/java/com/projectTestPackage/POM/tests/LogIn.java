@@ -20,20 +20,22 @@ public class LogIn {
     HomePage homePageObj;
 
     @BeforeTest
-    public void setupSystem(){
+    public void setupSystem() throws InterruptedException {
         System.setProperty("webdriver.chrome.driver" , System.getProperty("user.dir")+ "\\drivers\\chromedriver2.exe");
         String URL= "https://www.advantageonlineshopping.com/#/";
         driver=new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.manage().window().maximize();
         driver.get(URL);
+        Thread.sleep(3000); //Only to visualizate process
     }
     @Test(priority = 0,enabled=true)
-    public void goToRegisterPage() {
+    public void goToRegisterPage() throws InterruptedException {
 
         //VALIDATE HOME PAGE NAME AN CLICK ON REGISTER LINK
         homePageObj= new HomePage(driver);
         homePageObj.clickOnRegisterLink();
+        Thread.sleep(3000); //Only to visualizate process
         homePageObj.logInData(RegisterUser.user,RegisterUser.pass);
         actualResult=(driver.findElement(HomePage.warningMessage).getAttribute("innerText"));
         expecResult="Maximum number logged users";

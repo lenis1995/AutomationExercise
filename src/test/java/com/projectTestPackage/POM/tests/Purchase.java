@@ -33,10 +33,12 @@ public class Purchase {
     public void addProduct() throws InterruptedException {
         homePageObj=new HomePage(driver);
         homePageObj.clickOnSearchButton();
-        //Thread.sleep(3000); //Only to visualizate process
+        Thread.sleep(3000); //Only to visualizate process
         homePageObj.findProduct("head");
         homePageObj.clickOnSearchButton();
+        Thread.sleep(3000); //Only to visualizate process
         homePageObj.closeWindow();
+        Thread.sleep(3000); //Only to visualizate process
         product=new Products(driver);
         product.clickOnProduct();
         product.addToKart();

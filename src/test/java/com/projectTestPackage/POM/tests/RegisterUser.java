@@ -31,7 +31,7 @@ public class RegisterUser {
         driver.get(URL);
     }
     @Test(priority = 0,enabled=true)
-    public void goToRegisterPage(){
+    public void goToRegisterPage() throws InterruptedException {
 
         //VALIDATE HOME PAGE NAME AN CLICK ON REGISTER LINK
         homePageObj= new HomePage(driver);
@@ -41,7 +41,9 @@ public class RegisterUser {
         Assert.assertEquals(actualResult,expecResult);
         System.out.print(actualResult);
         //CLICK ON CREATE NEW ACCOUNT
+        Thread.sleep(3000); //Only to visualizate process
         homePageObj.clickOnCreateAnAccount();
+        Thread.sleep(3000); //Only to visualizate process
 
 
     }
