@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestExercise" thread-count="1">
+
+    <test name="Register">
+        <classes>
+            <class name="com.projectTestPackage.POM.tests.RegisterUser"/>
+        </classes>
+    </test>
+    <test name="Login">
+        <classes>
+            <class name="com.projectTestPackage.POM.tests.LogIn"/>
+        </classes>
+    </test>
+    <test name="Purchase">
+        <classes>
+            <class name="com.projectTestPackage.POM.tests.Purchase"/>
+        </classes>
+    </test>
+
+
+</suite>

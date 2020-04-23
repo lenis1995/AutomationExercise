@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="2563ab7b-afb4-4c7c-b641-e106fd127937" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1avIEAaXEFBJ9jZ1kANB9xhhy9i" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/drivers" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\lenix\IdeaProjects\AutomationPracticeExercise\drivers" />
+      <recent name="C:\Users\lenix\IdeaProjects\AutomationPracticeExercise" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.C:/Users/lenix/IdeaProjects/AutomationPracticeExercise/src/run.xml">
+    <configuration name="C:/Users/lenix/IdeaProjects/AutomationPracticeExercise/src/run.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeExercise" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/run.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LogIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.projectTestPackage.POM.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.projectTestPackage.POM.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.projectTestPackage.POM.tests.LogIn" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Purchase" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.projectTestPackage.POM.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.projectTestPackage.POM.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.projectTestPackage.POM.tests.Purchase" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterUser" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.projectTestPackage.POM.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.projectTestPackage.POM.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.projectTestPackage.POM.tests.RegisterUser" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RegisterUser.goToRegisterPage" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="AutomationPracticeExercise" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.projectTestPackage.POM.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.projectTestPackage.POM.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.projectTestPackage.POM.tests.RegisterUser" />
+      <option name="METHOD_NAME" value="goToRegisterPage" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.C:/Users/lenix/IdeaProjects/AutomationPracticeExercise/src/run.xml" />
+        <item itemvalue="TestNG.Purchase" />
+        <item itemvalue="TestNG.RegisterUser" />
+        <item itemvalue="TestNG.LogIn" />
+        <item itemvalue="TestNG.RegisterUser.goToRegisterPage" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2563ab7b-afb4-4c7c-b641-e106fd127937" name="Default Changelist" comment="" />
+      <created>1587609527702</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587609527702</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="108" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1587614436993">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="92" y="108" width="1182" height="544" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1366.728@0.0.1366.728" timestamp="1587614436993" />
+    <state x="387" y="64" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog" timestamp="1587611246216">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="387" y="64" key="#com.intellij.refactoring.encapsulateFields.EncalpsulateFieldsDialog/0.0.1366.728@0.0.1366.728" timestamp="1587611246216" />
+    <state x="463" y="135" key="FileChooserDialogImpl" timestamp="1587609567097">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="135" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1587609567097" />
+    <state width="1323" height="55" key="GridCell.Tab.0.bottom" timestamp="1587670315864">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="55" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1587670315864" />
+    <state width="1323" height="55" key="GridCell.Tab.0.center" timestamp="1587670315863">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="55" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1587670315863" />
+    <state width="1323" height="55" key="GridCell.Tab.0.left" timestamp="1587670315863">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="55" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1587670315863" />
+    <state width="1323" height="55" key="GridCell.Tab.0.right" timestamp="1587670315864">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="55" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1587670315864" />
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1587647969089">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="378" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1587647969089" />
+    <state x="380" y="112" width="607" height="536" key="find.popup" timestamp="1587616412559">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="380" y="112" width="607" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1587616412559" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1587671662409">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1587671662409" />
+  </component>
+</project>
